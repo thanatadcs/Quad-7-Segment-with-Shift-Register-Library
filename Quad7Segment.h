@@ -1,3 +1,5 @@
+#ifndef QUAD7SEGMENT_H
+#define QUAD7SEGMENT_H
 #include "HC595.h"
 class Quad7Segment {
   public:
@@ -22,3 +24,4 @@ class Quad7Segment {
 		0b00011111
 	};
 };
+#endif
